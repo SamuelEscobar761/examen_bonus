@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.equalTo;
 
-public class CRUDTest extends TestBaseAuthBasic {
+public class CRUDTokenTest extends TestBaseToken {
 
     @Test
     public void createUpdateDeleteProject(){

@@ -9,9 +9,7 @@ public class RequestPUT implements IRequest {
     @Override
     public Response send(RequestInfo requestInfo) {
         Response response=given()
-                    .auth()
-                    .preemptive()
-                    .basic(Configuration.user, Configuration.password)
+                    .headers(requestInfo.getHeaders())
                     .body(requestInfo.getBody())
                     .log()
                     .all().

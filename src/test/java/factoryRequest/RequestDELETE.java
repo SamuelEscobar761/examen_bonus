@@ -9,9 +9,7 @@ public class RequestDELETE implements IRequest {
     @Override
     public Response send(RequestInfo requestInfo) {
         Response response=given()
-                    .auth()
-                    .preemptive()
-                    .basic(Configuration.user, Configuration.password)
+                    .headers(requestInfo.getHeaders())
                     .log()
                     .all().
                 when()
