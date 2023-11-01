@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="filaB.webUi.respuestas.RespuestaPreguntaCuatroTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-20T21:54:26" hostname="DESKTOP-6R1SD89" time="11.19">
+  <properties/>
+  <testcase name="loginTesting()" classname="filaB.webUi.respuestas.RespuestaPreguntaCuatroTest" time="11.19"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
